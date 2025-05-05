@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class EpicTest {
 
     @Test
-    public void EpicsWithEqualIdShouldBeEqual() {
+    public void epicsWithEqualIdShouldBeEqual() {
         Epic epic1 = new Epic(10, "Сделать перестановку", "Нужно успеть пока зп не закончилась");
         Epic epic2 = new Epic(10, "Подготовиться к собеседованию", "Когда-то там");
         assertEquals(epic1, epic2,
